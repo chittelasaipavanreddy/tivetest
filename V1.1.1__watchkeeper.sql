@@ -113,8 +113,3 @@ catch (err) {
    return "Failed" + err;
 }
 ';
-
-create or replace task TABLE_MONITOR_TASK
-	warehouse=AIRFLOW_DEV_WAREHOUSE
-	schedule='USING CRON 0 3 * * * UTC'
-	as call SP_MONITOR();
