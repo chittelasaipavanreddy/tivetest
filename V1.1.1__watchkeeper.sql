@@ -1,4 +1,3 @@
-create or replace database KIPI_WATCHKEEPER;
 
 create or replace schema COMPUTE_CREDIT_MONITOR_SCHEMA;
 
