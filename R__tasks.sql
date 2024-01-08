@@ -1,4 +1,0 @@
-create or replace task KIPI_WATCHKEEPER.COMPUTE_CREDIT_MONITOR_SCHEMA.TABLE_MONITOR_TASK
-	warehouse=COMPUTE_WH
-	schedule='USING CRON 0 3 * * * UTC'
-	as call SP_MONITOR();
